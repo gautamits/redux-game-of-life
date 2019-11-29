@@ -1,9 +1,9 @@
 FROM node as build-deps
 WORKDIR /app
 COPY package.json ./
-RUN yarn
+RUN npm i
 COPY . ./
-RUN yarn build --production
+RUN npm build
 
 # Stage 2 - the production environment
 FROM nginx:stable
