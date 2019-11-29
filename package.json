@@ -33,7 +33,7 @@
   "bugs": {
     "url": "https://github.com/alanrsoares/redux-game-of-life/issues"
   },
-  "homepage": "https://github.com/alanrsoares/redux-game-of-life",
+  "homepage": "/game-of-life",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
